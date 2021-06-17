@@ -1,0 +1,35 @@
+.JoinPage-content{
+    position:absolute;
+    background-color: aliceblue;
+    top:30vh;
+    left:33vw;
+    height: 40vh;
+    width:40vw;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-color:rgb(184, 180, 180);
+    border-width: 2px;
+    border-style: outset;
+    box-shadow: 2px 2px lightgray;
+}
+
+.JoinPage-content:hover{
+box-shadow: 10px 10px lightgray;
+top:29.5vh;
+left:32.5vw;
+transition: all 0.2s ease-out;
+}
+#JoinPage-Heading{
+    font-size: larger;
+    color: blueviolet;
+    padding-top: 2vh;
+}
+#JoinPage-Button{
+    background-color: blue;
+    width:12vw;
+    height: 5vh;
+    border-radius: 2rem;
+    margin-top: 25vh;
+    padding-bottom: 2vh;
+
+}
