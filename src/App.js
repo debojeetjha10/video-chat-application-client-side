@@ -5,6 +5,8 @@ import Foooter from './components/Footer/Footer'
 import SideBar from './components/SideBar/SideBar';
 import VideoGrid from './components/VideoGrid/VideoGrid'
 import JoinPage from './components/JoinPage/JoinPage'
+import MeetCreatePage from './components/MeetCreatePage/MeetCreatePage';
+import JoinCreateDecidePage from './components/JoinCreateDecidePage/JoinCreateDecidePage';
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
       <Navbar/>
       <div className='main-content'>
         <Switch>
-        <Route path='/' exact component={JoinPage} />
+        <Route path='/' exact component={JoinCreateDecidePage} />
+        <Route path='/join' exact component={JoinPage}/>
         <Route path='/video' exact component={VideoGrid}/>
+        <Route path='/create' exacft component={MeetCreatePage}/>
         </Switch>
       </div>
       <Foooter/>

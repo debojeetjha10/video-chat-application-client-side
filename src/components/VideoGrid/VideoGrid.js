@@ -1,6 +1,5 @@
 import React from 'react'
 import './VideoGrid.css'
-import {Link} from 'react-router-dom'
 class VideoGrid extends React.Component{
     render(){
         return(
