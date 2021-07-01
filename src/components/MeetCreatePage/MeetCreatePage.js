@@ -4,18 +4,31 @@ import '../StyleSheets/MiddleCard/MiddleCard.css'
 import '../StyleSheets/Buttons/BigBlueButton.css'
 import '../StyleSheets/Input/NormalInput.css'
 class MeetCreatePage extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {name: ''};
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
 
+    }
+    handleChange(event){
+        this.setState({name: event.target.value});
+    }
+    handleSubmit(event) {
+        window.location.replace(`http://localhost:3002?name=${this.state.name}`)
+        event.preventDefault();
+      }
     render(){
         return (
             <div className='Middle-Card'>
                 <p id = 'JoinPage-Heading'>Create a Teams Meeting</p>
                 <div id = 'form-container'>
-                    <form id='name-roomId-form' >
+                    <form onSubmit={this.handleSubmit} id='name-form-to-create-meet' >
                     <label for='name'>Enter your Name: </label>
-                    <input type='text' className='Normal-Input' id='name' name='name' placeholder='Enter Your Name ' />
+                    <input type='text' value={this.state.name} onChange={this.handleChange} className='Normal-Input' id='name' name='name' placeholder='Enter Your Name ' required />
                     </form>
                 </div>
-                <a href = 'http://localhost:3002/'><button className='Big-Blue-Button' id='JoinPage-Button'>Create Now</button></a>
+                <button type='submit' form='name-form-to-create-meet' className='Big-Blue-Button' id='JoinPage-Button'>Create Now</button>
             </div>
         )
     }
