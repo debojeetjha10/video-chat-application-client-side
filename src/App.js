@@ -1,7 +1,7 @@
 import './App.css';
 import {Route , Switch,BrowserRouter} from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
-import Foooter from './components/Footer/Footer'
+import Footer from './components/Footer/Footer'
 import SideBar from './components/SideBar/SideBar';
 import VideoGrid from './components/VideoGrid/VideoGrid'
 import JoinPage from './components/JoinPage/JoinPage'
@@ -23,7 +23,7 @@ function App() {
         <Route path='/end' exact component={EndCallPage}/>
         </Switch>
       </div>
-      <Foooter/>
+      <Footer/>
       </BrowserRouter>
     </div>
   );

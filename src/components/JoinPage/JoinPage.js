@@ -18,7 +18,7 @@ class JoinPage extends React.Component{
         this.setState({roomId:roomIdChngevent.target.value})
     }
     handleSubmit(submitevent){
-        window.location.replace(`http://localhost:3002/${this.state.roomId}?name=${this.state.name}`);
+        window.location.replace(`https://debo-video-call.herokuapp.com/${this.state.roomId}?name=${this.state.name}`);
         submitevent.preventDefault();
     }
     render(){

@@ -15,7 +15,7 @@ class MeetCreatePage extends React.Component{
         this.setState({name: event.target.value});
     }
     handleSubmit(event) {
-        window.location.replace(`http://localhost:3002?name=${this.state.name}`)
+        window.location.replace(`https://debo-video-call.herokuapp.com/?name=${this.state.name}`)
         event.preventDefault();
       }
     render(){
