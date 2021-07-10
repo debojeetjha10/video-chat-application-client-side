@@ -12,6 +12,7 @@ class JoinCreateDecidePage extends React.Component{
                 <div id='Join-Create-Button-Container'>
                 <Link to= '/create'><button className='Big-Blue-Button' id='Create-Meet-Button'>Create a Meet</button></Link>
                 <Link to= '/join'><button className='Big-Blue-Button' id='Join-Meet-Button'>Join a Meet</button></Link>
+                <Link to= '/joinchat'><button className='Big-Blue-Button' id='Join-Chat-Button'>Join a Chat</button></Link>
 
                 </div>
             </div>

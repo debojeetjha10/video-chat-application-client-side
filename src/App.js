@@ -7,6 +7,7 @@ import JoinPage from './components/JoinPage/JoinPage'
 import MeetCreatePage from './components/MeetCreatePage/MeetCreatePage';
 import JoinCreateDecidePage from './components/JoinCreateDecidePage/JoinCreateDecidePage';
 import EndCallPage from './components/EndCallPage/EndCallPage';
+import JoinChat from './components/JoinChat/JoinChat';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' exact component={JoinCreateDecidePage} />
         <Route path='/join' exact component={JoinPage}/>
         <Route path='/create' exact component={MeetCreatePage}/>
+        <Route path = '/joinchat' exact component={JoinChat}/>
         <Route path='/end' exact component={EndCallPage}/>
         </Switch>
       </div>
