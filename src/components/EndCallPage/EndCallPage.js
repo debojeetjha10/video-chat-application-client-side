@@ -1,3 +1,4 @@
+//this page(box) will appear after the metting ends
 import React from 'react'
 import './EndCallPage.css'
 import '../StyleSheets/MiddleCard/MiddleCard.css'

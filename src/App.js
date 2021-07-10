@@ -3,7 +3,6 @@ import {Route , Switch,BrowserRouter} from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import SideBar from './components/SideBar/SideBar';
-import VideoGrid from './components/VideoGrid/VideoGrid'
 import JoinPage from './components/JoinPage/JoinPage'
 import MeetCreatePage from './components/MeetCreatePage/MeetCreatePage';
 import JoinCreateDecidePage from './components/JoinCreateDecidePage/JoinCreateDecidePage';
@@ -18,7 +17,6 @@ function App() {
         <Switch>
         <Route path='/' exact component={JoinCreateDecidePage} />
         <Route path='/join' exact component={JoinPage}/>
-        <Route path='/video' exact component={VideoGrid}/>
         <Route path='/create' exact component={MeetCreatePage}/>
         <Route path='/end' exact component={EndCallPage}/>
         </Switch>

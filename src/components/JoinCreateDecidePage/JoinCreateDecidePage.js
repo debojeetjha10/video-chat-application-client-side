@@ -1,3 +1,4 @@
+//this page lets us choose wheather we want to join ameet or create a new one
 import React from 'react'
 import './JoinCreateDecidePage.css'
 import '../StyleSheets/MiddleCard/MiddleCard.css'

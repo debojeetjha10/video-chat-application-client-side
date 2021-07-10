@@ -4,6 +4,8 @@ import '../StyleSheets/MiddleCard/MiddleCard.css'
 import '../StyleSheets/Buttons/BigBlueButton.css'
 import '../StyleSheets/Input/NormalInput.css'
 class MeetCreatePage extends React.Component{
+    // constructing the class to handle the input in name
+    //input and handle submi
     constructor(props){
         super(props);
         this.state = {name: ''};
@@ -14,6 +16,7 @@ class MeetCreatePage extends React.Component{
     handleChange(event){
         this.setState({name: event.target.value});
     }
+    // redirecting to the meet page
     handleSubmit(event) {
         window.location.replace(`https://debo-video-call.herokuapp.com/?name=${this.state.name}`)
         event.preventDefault();

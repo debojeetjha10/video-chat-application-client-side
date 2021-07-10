@@ -1,3 +1,4 @@
+//this nis the navbar component
 import React from 'react';
 import './Navbar.css';
 import teams_logo from './icon/teams.png'
