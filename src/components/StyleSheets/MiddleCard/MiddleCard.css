@@ -1,6 +1,6 @@
 .Middle-Card {
   position: absolute;
-  background-color: aliceblue;
+  background-color: rgb(213, 234, 253);
   top: 30vh;
   left: 33vw;
   height: 40vh;
@@ -8,14 +8,15 @@
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   border-color: rgb(184, 180, 180);
-  border-width: 2px;
+  border-width: 0.5vh;
   border-style: outset;
   box-shadow: 2px 2px lightgray;
+  border-radius: 0.5vh;
   padding-left: 2vw;
   padding-right: 2vw;
 }
 .Middle-Card:hover {
-    box-shadow: 10px 10px lightgray;
+  box-shadow: 10px 10px lightgray;
   top:29.5vh;
   left:32.5vw;
   transition: all 0.2s ease-out;
