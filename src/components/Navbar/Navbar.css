@@ -5,6 +5,7 @@
   background-color: blueviolet;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   top:0;
 }
@@ -36,11 +37,13 @@
   height: 4vh;
   width: auto;
   border-radius: 50%;
+  cursor: pointer;
 }
 .search-bar {
   margin-top: 1vh;
-  margin-left: 23rem;
   padding: 0 0 0 0;
+  height: 3.5vh;
+  border-radius: 1vh;
   width: 30vw;
-  font-size: 15px;
+  font-size: medium
 }
