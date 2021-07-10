@@ -1,3 +1,73 @@
+## This is the page which lets us join/create video-calls and joining chats easier
+## This is made using React
+## This is the explanation of the files in this folder
+
+- 📂node_modules (will be there after installing node modules)
+
+- 📂public
+
+    -  📜index.html (the main html file in which react pushes content)
+
+    - 📜manifest.json (conatins some configs)
+    - 📜teams_icon.ico (the ico file for website header)
+
+- 📂src (the main source folder which contains all the react sources i.e react-components,icons,images etc ,the components of this folder  have self explainotary name,what they do is commented inside the js file,the  components folder have a js file,css file,icons and   images. )
+    - 📂components
+        - 📂EndCallPage
+        - 📜EndCallPage.css
+        - 📜EndCallPage.js
+        - 📂Footer
+            - 📜Footer.css
+            - 📜Footer.js
+        - 📂JoinChat
+            - 📜JoinChat.css
+            - 📜JoinChat.js
+        - 📂JoinCreateDecidePage
+            - 📜JoinCreateDecidePage.css
+            - 📜JoinCreateDecidePage.js
+        - 📂JoinPage
+            - 📜JoinPage.css
+            - 📜JoinPage.js
+        - 📂MeetCreatePage
+            - 📜MeetCreatePage.css
+            - 📜MeetCreatePage.js
+        - 📂Navbar
+            - 📂icon
+                - 📜burgermenu.ai
+                - 📜end-call.png
+                - 📜group.png
+                - 📜hand.png
+                - 📜menu.png
+                - 📜msg-file.png
+                - 📜teams.png
+                - 📜threedot.png
+                - 📜usr.jpeg
+                - 📜Navbar.css
+                - 📜Navbar.js
+        - 📂SideBar
+            - 📜SideBar.css
+            - 📜SideBar.js
+        - 📂StyleSheets
+            - 📂Buttons
+                - 📜BigBlueButton.css
+            - 📂Input
+                - 📜NormalInput.css
+            - 📂MiddleCard
+                - 📜MiddleCard.css
+        - 📜App.css
+        - 📜App.js
+        - 📜index.css
+        - 📜index.js
+
+- 📜.gitignore (to ignore some specified files(wrriten in this file) by git)
+
+- 📜package-lock.json (this is used to save npm packages supporting packages version)
+
+- 📜package.json (this is used to store npm configurations,package versions and more npm stuff)
+
+- 📜Readme.md (this is what you are Reading)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
