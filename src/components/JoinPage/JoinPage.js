@@ -20,7 +20,7 @@ class JoinPage extends React.Component{
     handleRoomIdChange(roomIdChngevent){
         this.setState({roomId:roomIdChngevent.target.value})
     }
-    //on submit we wiull land on the meet page
+    //on submit we will land on the meet page
     handleSubmit(submitevent){
         window.location.replace(`https://debo-video-call.herokuapp.com/${this.state.roomId}?name=${this.state.name}`);
         submitevent.preventDefault();
