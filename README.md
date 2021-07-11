@@ -1,7 +1,7 @@
 ## This Page lets us join/create video-calls and joining chats easier
 - ### For creating meeting it asks for name and creates a new meet and joins to that meet
 - ### For joining a meet/chat it asks for the meeting Id and Name and Joins the meet/chat
-##[ This Page is made using React](#getting-started-with-create-react-app)
+## [ This Page is made using React](#getting-started-with-create-react-app)
 ## This is the explanation of the files in this folder
 
 - 📂node_modules (will be there after installing node modules)
