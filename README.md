@@ -1,5 +1,7 @@
-## This is the page which lets us join/create video-calls and joining chats easier
-## This is made using React
+## This Page lets us join/create video-calls and joining chats easier
+- ### For creating meeting it asks for name and creates a new meet and joins to that meet
+- ### For joining a meet/chat it asks for the meeting Id and Name and Joins the meet/chat
+##[ This Page is made using React](#getting-started-with-create-react-app)
 ## This is the explanation of the files in this folder
 
 - 📂node_modules (will be there after installing node modules)
@@ -68,7 +70,7 @@
 - 📜Readme.md (this is what you are Reading)
 
 
-# Getting Started with Create React App
+# Getting Started with Create React App 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
