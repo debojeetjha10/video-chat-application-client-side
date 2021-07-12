@@ -28,7 +28,7 @@ class JoinChat extends React.Component{
     render(){
         return (
             <div className='Middle-Card'>
-                <p id = 'JoinChat-Heading'>Join a Teams Meeting</p>
+                <p id = 'JoinChat-Heading'>Join a Teams Chat</p>
                 <div id = 'form-container'>
                     <form id='name-roomId-form' onSubmit={this.handleSubmit}>
                     <label for='name'>Name: </label>
