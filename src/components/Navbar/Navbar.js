@@ -3,7 +3,7 @@ import React from 'react';
 import './Navbar.css';
 import teams_logo from './icon/teams.png'
 import {Link} from 'react-router-dom'
-import usr_logo from './icon/usr.jpeg'
+import usr_logo from './icon/user.png'
 class Navbar extends React.Component {
     // constructing the class to handle the input in search field 
     //input and do the searching

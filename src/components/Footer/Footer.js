@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 class Footer extends React.Component{
@@ -20,7 +21,9 @@ class Footer extends React.Component{
                 <ul className= 'Footer-list'>
                     {this.items.map(item =>{
                         return(
-                            <li className={item.className}><a href={item.href} className = "Footer-links">{item.title}</a></li>
+                            <Link to={item.href}>
+                                <li className={item.className}><a href={item.href} className = "Footer-links">{item.title}</a></li>
+                             </Link>
                         )
                     })
                     

@@ -1,3 +1,4 @@
 {
-  "appService.deploySubpath": "."
+  "appService.deploySubpath": ".",
+  "appService.defaultWebAppToDeploy": "/subscriptions/a1d799ee-aefe-4bea-80f8-c18c7ae476a4/resourceGroups/appsvc_linux_centralus_premium/providers/Microsoft.Web/sites/example404"
 }

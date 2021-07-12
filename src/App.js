@@ -8,6 +8,8 @@ import MeetCreatePage from './components/MeetCreatePage/MeetCreatePage';
 import JoinCreateDecidePage from './components/JoinCreateDecidePage/JoinCreateDecidePage';
 import EndCallPage from './components/EndCallPage/EndCallPage';
 import JoinChat from './components/JoinChat/JoinChat';
+import AboutUs from './components/AboutUs/AboutUs';
+import ContactUs from './components/ContactUs/ContactUs';
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,9 @@ function App() {
         <Route path='/create' exact component={MeetCreatePage}/>
         <Route path = '/joinchat' exact component={JoinChat}/>
         <Route path='/end' exact component={EndCallPage}/>
+        <Route path='/aboutus' exact component={AboutUs}/>
+        <Route path='/contactus' exact component={ContactUs}/>
+
         </Switch>
       </div>
       <Footer/>
